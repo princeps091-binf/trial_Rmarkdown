@@ -33,3 +33,21 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+## My own Code right here
+
+``` r
+print(boxplot.stats(cars$speed))
+```
+
+    ## $stats
+    ## [1]  4 12 15 19 25
+    ## 
+    ## $n
+    ## [1] 50
+    ## 
+    ## $conf
+    ## [1] 13.43588 16.56412
+    ## 
+    ## $out
+    ## numeric(0)
